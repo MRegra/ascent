@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent><groupId>dev.sobatista.ascent</groupId><artifactId>ascent-parent</artifactId><version>0.2.0</version></parent>
+  <artifactId>ascent-meter</artifactId>
+  <name>Ascent Meter</name>
+  <description>The modern BIT: an ASM instrumenting classloader that counts basic blocks and load/store instructions per request, the cost model, a metrics store, and a cost estimator.</description>
+  <dependencies>
+    <dependency><groupId>dev.sobatista.ascent</groupId><artifactId>ascent-solver</artifactId></dependency>
+    <dependency><groupId>org.ow2.asm</groupId><artifactId>asm</artifactId></dependency>
+  </dependencies>
+</project>

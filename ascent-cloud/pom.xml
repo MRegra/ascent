@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent><groupId>dev.sobatista.ascent</groupId><artifactId>ascent-parent</artifactId><version>0.2.0</version></parent>
+  <artifactId>ascent-cloud</artifactId>
+  <name>Ascent Cloud</name>
+  <description>The orchestration: a pluggable cloud with a local simulator, a cost-aware load balancer, an autoscaler, and an HTTP gateway.</description>
+  <dependencies>
+    <dependency><groupId>dev.sobatista.ascent</groupId><artifactId>ascent-meter</artifactId></dependency>
+  </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId><artifactId>exec-maven-plugin</artifactId><version>3.5.0</version>
+        <configuration><mainClass>dev.sobatista.ascent.cloud.AscentDemo</mainClass></configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
