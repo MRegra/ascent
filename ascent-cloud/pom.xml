@@ -12,7 +12,7 @@
   <build>
     <plugins>
       <plugin>
-        <groupId>org.codehaus.mojo</groupId><artifactId>exec-maven-plugin</artifactId><version>3.5.0</version>
+        <groupId>org.codehaus.mojo</groupId><artifactId>exec-maven-plugin</artifactId><version>3.6.4</version>
         <configuration><mainClass>dev.sobatista.ascent.cloud.AscentDemo</mainClass></configuration>
       </plugin>
     </plugins>
