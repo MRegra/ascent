@@ -2,7 +2,9 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["github>MRegra/fedora-workstation-scripts//renovate/default"],
   "description": [
-    "Scope mirrors the Dependabot config this replaces: Maven (root pom drives every module) and GitHub Actions."
+    "Scope mirrors the Dependabot config this replaces: Maven (root pom drives every module) and GitHub Actions.",
+    "dependencyDashboard is already on via the extended preset; set explicitly here so issue #9 (Dependency Dashboard) stays enabled even if the preset ever changes."
   ],
-  "enabledManagers": ["maven", "github-actions"]
+  "enabledManagers": ["maven", "github-actions"],
+  "dependencyDashboard": true
 }
