@@ -6,5 +6,7 @@
     "dependencyDashboard is already on via the extended preset; set explicitly here so issue #9 (Dependency Dashboard) stays enabled even if the preset ever changes."
   ],
   "enabledManagers": ["maven", "github-actions"],
-  "dependencyDashboard": true
+  "dependencyDashboard": {
+    "enabled": true
+  }
 }
